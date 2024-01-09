@@ -283,26 +283,37 @@ border: none;
 .background-footer {
   background-image: url("./resources/Rectangle\ 2.png");
   background-repeat: no-repeat;
-  background-position: bottom;
   /* background: ; */
   width: 1320px;
   height: 662px;
   display: flex;
-  padding: auto;
- 
-  top: 5%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
-  z-index: 12;
-  
- 
-  background-position:center bottom;
+  /* padding: auto; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* margin: 50px 0px; */
+  /* height: 90%;
+  z-index: 2; */
+
+  align-items: safe;
+ /* animation-fill-mode: forwards; */
+ /* align-content: center; */
+/* flex-direction: row; */
+  background-position: bottom;
+/* right: 10px; */
+/* -moz-box-align: center; */
 }
+/* .discount{
+  border: none;
+} */
 .girl{
-  width: 429px;
-  height: 433px;
-  flex-shrink: 0;
+  /* width: 429px;
+  height: 433px; */
+  /* flex-shrink: 0; */
+  /* gap: 10px; */
+}
+.box{
+
 }
 
 
