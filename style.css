@@ -116,31 +116,33 @@ p {
 .section-03 > div {
   border-radius: 15px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  width: 1320px;
-  height: 600px;
+  width: 1300px;
+  height: 610px;
   display: flex;
   justify-content: center;
+  gap: 40px;
   align-items: center;
   vertical-align: middle;
-  gap: 40px;
+  
 }
 .section-03 > div > div {
   display: flex;
-  align-items: self-start;
   flex-direction: column;
+  align-items: self-start;
   gap: 30px;
   width: 642px;
+}
+.section-03 p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-family: Inter;
 }
 .section-03 h1 {
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-family: "Merriweather";
 }
-.section-03 small {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
-  font-family: Inter;
-}
+
 .section-03 button {
   background-color: transparent;
   border: 1px solid white;
@@ -349,6 +351,16 @@ p {
   padding: 80px 0;
   margin-top: 100px;
 }
+
+.section-08 h2 {
+  color: #070211;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 900;
+  text-transform: capitalize;
+}
 .section-08 p {
   width: 896px;
   margin: 0 auto;
@@ -359,15 +371,6 @@ p {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 30px;
-}
-.section-08 h2 {
-  color: #070211;
-  margin-bottom: 22px;
-  margin-top: 22px;
-  text-align: center;
-  font-family: Merriweather;
-  font-weight: 900;
-  text-transform: capitalize;
 }
 .section-08 form {
   font-family: Inter;
@@ -393,7 +396,6 @@ p {
   border-radius: 0px 50px 50px 0px;
   font-weight: 600;
   color: #fff;
-  /* margin-left: -10px; */
   cursor: pointer;
 }
 .subscribe-btn{
@@ -403,6 +405,7 @@ transition-duration: 0.5s;
 background-color: #04AA6D;
 }
 /* section-08 end here */
+
 /* foter section start here */
 footer {
   background: #070211;
@@ -439,27 +442,41 @@ footer section hr {
   height: 1px;
 }
 .fb-btn{
- transition-duration: 0.5s;
+ transition-duration: 1s;
  
 }
 .fb-btn:hover{
  background-color: lightseagreen;
 box-shadow: #aa6d04;
+border-radius: 50%;
+border: none;
 }
 .ins-btn{
  transition-duration: 1s;
 }
 .ins-btn:hover{
- 
+  background-color: rgb(113, 113, 118);
+box-shadow: #aa6d04;
+border-radius: 50%;
 }
 .x-btn{
- transition-duration: 0.5s;
+ transition-duration: 1s;
 }
 .x-btn:hover{
-
+  background-color: rgb(126, 18, 69);
+  box-shadow: #aa6d04;
+  border-radius: 50%;
+}
+.in-btn{
+  transition-duration: 1s;
+}
+.in-btn:hover{
+  background-color: rgb(210, 51, 30);
+  box-shadow: #aa6d04;
+  border-radius: 50%;
 }
 hr{
-  background-color:#757575 ;
+  color:#342f2f ;
 }
 footer > section > article {
   display: flex;
