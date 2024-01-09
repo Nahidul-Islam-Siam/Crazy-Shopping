@@ -1,16 +1,21 @@
+/* CSS started */
 * {
-  /* font-family: 'Merriweather', serif; */
-  /* font-family: 'Inter', sans-serif; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/* body part */
 body {
   background-color: white;
 }
+/* main part */
 main {
   max-width: 1320px;
   margin: 0 auto;
+}
+p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
 }
 .black {
   color: black;
@@ -59,13 +64,8 @@ h1 {
 h2 {
   font-size: 48px;
 }
-h4 {
-  font-size: 24px;
-}
-p {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-}
+
+
 
 /*section-2 start here */
 
@@ -102,6 +102,9 @@ p {
   width: 802.9px;
   margin: 0 auto;
 }
+h4 {
+  font-size: 24px;
+}
 /* section-02 end here */
 
 /* section-03 start here */
@@ -127,8 +130,9 @@ p {
 }
 .section-03 > div > div {
   display: flex;
-  flex-direction: column;
+  
   align-items: self-start;
+  flex-direction: column;
   gap: 30px;
   width: 642px;
 }
@@ -203,6 +207,7 @@ p {
   color: white;
 }
 /* section-04 end here */
+
 /* section-05 start here */
 .section-05 {
   margin-top: 100px;
@@ -233,6 +238,12 @@ p {
   border-radius: 50%;
   padding: 20px;
   margin-left: -105px;
+}
+.round-img{
+transition-duration: 1s;
+}
+.round-img:hover{
+border: none;
 }
 .section-05-h2 {
   color: #f00;
@@ -288,6 +299,7 @@ p {
   transition: 0.2s ease-in;
 }
 /* section-06 end here */
+
 /* section-07 start here */
 .section-07 {
   margin-top: 100px;
@@ -308,15 +320,12 @@ p {
 .section-07 h2 {
   color: #070211;
   font-family: Merriweather;
-  
   font-weight: 900;
-  
   text-transform: capitalize;
 }
 .section-07 p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  
   font-weight: 400;
   line-height: 32px;
 }
@@ -343,6 +352,7 @@ p {
   transition: 0.2s ease-in;
 }
 /* section-07 end here */
+
 /* section-08  start here */
 .section-08 {
   text-align: center;
@@ -365,7 +375,6 @@ p {
   width: 896px;
   margin: 0 auto;
   color: rgba(7, 2, 17, 0.6);
-
   text-align: center;
   font-family: Inter;
   font-weight: 400;
@@ -378,7 +387,6 @@ p {
   margin: 0 auto;
   height: 72px;
   display: flex;
-
   align-items: center;
 }
 .section-08 form input {
@@ -486,4 +494,6 @@ footer > section > article {
   align-items: center;
   vertical-align: middle;
 }
+
+/* footer part ended */
 
